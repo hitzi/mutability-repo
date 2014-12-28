@@ -3,7 +3,7 @@ mutability-repo
 
 This is a Debian/Raspbian package to automate use of repo.mutability.co.uk.
 
-It is an architecture-independent package containing two conffiles:
+It contains two conffiles:
 
  * `/etc/apt/sources.list.d/mutability.list`: an apt configuration that points
    to the repo.mutability.co.uk archive.
