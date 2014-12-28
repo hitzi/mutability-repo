@@ -1,0 +1,15 @@
+Source: mutability-repo
+Section: embedded
+Priority: extra
+Maintainer: Oliver Jowett <oliver@mutability.co.uk>
+Build-Depends: debhelper(>=8)
+Standards-Version: 3.9.3
+Homepage: https://github.com/mutability/mutability-repo
+Vcs-Git: https://github.com/mutability/mutability-repo.git
+
+Package: mutability-repo
+Architecture: armhf
+Depends: ${misc:Depends}, gnupg
+Description: Apt configuration and keyring for repo.mutability.co.uk.
+ Installs an apt source and signing keys to allow automated installation of
+ packages from repo.mutability.co.uk.
